@@ -1,0 +1,1 @@
+scr_platform_elevator_create();
