@@ -1,4 +1,4 @@
 ## Purity Of Blood
 
 ### Developers
-Logan Spencer (GloomyToad) - Programmer
+Logan Spencer (GloomyToad) - Programmerr
