@@ -1,8 +1,8 @@
 {
-    "id": "6728807d-5692-4961-aee7-5a0409d5850d",
+    "id": "02ea556d-6d26-46ed-9f9e-dcc57d181691",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_combo_cache_create",
+    "name": "scr_player_attacking",
     "IsCompatibility": false,
     "IsDnD": false
 }

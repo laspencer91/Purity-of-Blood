@@ -1,6 +1,9 @@
 global.g = 2;
-phase = "idle";
-subPhase = "";
+phase = state.base;
+phaseTimer = 0;
+subPhase = subState.idle;
+subPhaseTimer = 0;
+vPhase = vState.grounded;
 
 //savedata
 global.xp = 0;
@@ -111,7 +114,7 @@ defaultMoveSpeed = moveSpeed;
 defaultRoomSpeed = room_speed;
 defaultImageSpeed = image_speed;
 hookTarget = noone;
-phasePrev = "idle";
+phasePrev = state.base;
 onGround = 1;
 onGroundPrev = 1;
 imPrev = 0;
