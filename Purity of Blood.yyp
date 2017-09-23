@@ -74,7 +74,7 @@
             "Key": "08d00883-4df1-42cf-b2e5-e29697950798",
             "Value": {
                 "id": "6c7c53e3-dbe6-4cef-bf7a-5caaa99b3677",
-                "resourcePath": "sprites\\spr_player_gut_weapon\\spr_player_gut_weapon.yy",
+                "resourcePath": "sprites\\sPlayerWeaponGut\\sPlayerWeaponGut.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -138,7 +138,7 @@
             "Key": "105787fd-bcb6-4506-8bd4-094c7c3571b5",
             "Value": {
                 "id": "ce444d08-bdce-4981-b02a-0cf6c0b2ddee",
-                "resourcePath": "sprites\\sPlayerAerialSlashEffect\\sPlayerAerialSlashEffect.yy",
+                "resourcePath": "sprites\\sPlayerEffectAerialSlash\\sPlayerEffectAerialSlash.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -274,7 +274,7 @@
             "Key": "2392707b-5ded-46db-98a3-850140bd7eba",
             "Value": {
                 "id": "2658b009-dbd6-4bfc-b8e6-bb51b86ea754",
-                "resourcePath": "sprites\\sPlayerAerialSlash2Effect\\sPlayerAerialSlash2Effect.yy",
+                "resourcePath": "sprites\\sPlayerEffectAerialSlash2\\sPlayerEffectAerialSlash2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -418,7 +418,7 @@
             "Key": "32b66033-c3df-4853-9c13-a91937cdf4a0",
             "Value": {
                 "id": "4b4e9214-b4aa-42a1-86ad-68553e4bb189",
-                "resourcePath": "sprites\\spr_player_slice_weapon\\spr_player_slice_weapon.yy",
+                "resourcePath": "sprites\\sPlayerWeaponSlice\\sPlayerWeaponSlice.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -586,7 +586,7 @@
             "Key": "41ef230a-2d88-4919-896d-14e41a6e5f62",
             "Value": {
                 "id": "d8b670b3-7b7a-432f-885c-cab26d3a80f6",
-                "resourcePath": "sprites\\spr_player_aerialSlash_weapon\\spr_player_aerialSlash_weapon.yy",
+                "resourcePath": "sprites\\sPlayerWeaponAerialSlash\\sPlayerWeaponAerialSlash.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -706,7 +706,7 @@
             "Key": "4968f93b-caff-41be-9e53-b3339a721f9a",
             "Value": {
                 "id": "33792516-ef73-45de-8ce1-2cf2f91d4689",
-                "resourcePath": "sprites\\spr_player_burst_weapon\\spr_player_burst_weapon.yy",
+                "resourcePath": "sprites\\sPlayerWeaponBurst\\sPlayerWeaponBurst.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -818,7 +818,7 @@
             "Key": "54685794-a339-45e7-bb34-33b5985a47f1",
             "Value": {
                 "id": "ced3752e-90a0-4a1c-9bb3-11ad1398f311",
-                "resourcePath": "sprites\\spr_player_slice2_weapon\\spr_player_slice2_weapon.yy",
+                "resourcePath": "sprites\\sPlayerWeaponSlice2\\sPlayerWeaponSlice2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -842,7 +842,7 @@
             "Key": "571ccba4-91c0-4a75-87cc-e3729338afef",
             "Value": {
                 "id": "5e69fabc-9b6d-44ac-9f40-33046b0d4330",
-                "resourcePath": "sprites\\spr_player_smash_weapon\\spr_player_smash_weapon.yy",
+                "resourcePath": "sprites\\sPlayerWeaponSmash\\sPlayerWeaponSmash.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -962,7 +962,7 @@
             "Key": "628cc95a-bcd0-4e8a-9f07-eab997cbc7e0",
             "Value": {
                 "id": "d336353f-693d-44fd-96b0-9abc63e3abfd",
-                "resourcePath": "sprites\\sPlayerSlice2Effect\\sPlayerSlice2Effect.yy",
+                "resourcePath": "sprites\\sPlayerEffectSlice2\\sPlayerEffectSlice2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1002,7 +1002,7 @@
             "Key": "68f3d9d1-f508-4311-b1af-729aa13f793b",
             "Value": {
                 "id": "4a39f16e-58ce-43c4-8364-d7decb9c34e1",
-                "resourcePath": "sprites\\sPlayerBurstEffect\\sPlayerBurstEffect.yy",
+                "resourcePath": "sprites\\sPlayerEffectBurst\\sPlayerEffectBurst.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1511,6 +1511,14 @@
             }
         },
         {
+            "Key": "8f8dfc91-4565-48af-a647-33b2de8acedf",
+            "Value": {
+                "id": "870b4a3d-90fa-4f49-a71d-0088e8bd92ae",
+                "resourcePath": "objects\\oCamera\\oCamera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "902a1a18-8b12-4f59-b725-e3c78906a516",
             "Value": {
                 "id": "e4931790-8a9e-48ee-96af-ac4d15ccdfef",
@@ -1618,7 +1626,7 @@
             "Key": "9d708219-fffc-477d-b5cf-0bc59e7485e9",
             "Value": {
                 "id": "e2556835-2d78-4d55-87c4-673659838167",
-                "resourcePath": "sprites\\sPlayerSliceEffect\\sPlayerSliceEffect.yy",
+                "resourcePath": "sprites\\sPlayerEffectSlice\\sPlayerEffectSlice.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1882,7 +1890,7 @@
             "Key": "add8cd45-dc19-44e6-b89e-148316e31247",
             "Value": {
                 "id": "c7f79c55-a26b-48ea-a59e-13299b5573b2",
-                "resourcePath": "sprites\\spr_player_aerialFinish_weapon\\spr_player_aerialFinish_weapon.yy",
+                "resourcePath": "sprites\\sPlayerWeaponAerialFinish\\sPlayerWeaponAerialFinish.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1922,7 +1930,7 @@
             "Key": "b2c46740-398f-4153-8051-9d12beab4532",
             "Value": {
                 "id": "0e05174f-cbda-4400-8839-e3e2830403d1",
-                "resourcePath": "sprites\\sPlayerSmashEffect\\sPlayerSmashEffect.yy",
+                "resourcePath": "sprites\\sPlayerEffectSmash\\sPlayerEffectSmash.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2002,7 +2010,7 @@
             "Key": "c030958f-6770-4872-b6a1-1da0b3958781",
             "Value": {
                 "id": "1bd3ec4c-e4fb-4590-a018-6bf27899fbaf",
-                "resourcePath": "sprites\\sPlayerGutEffect\\sPlayerGutEffect.yy",
+                "resourcePath": "sprites\\sPlayerEffectGut\\sPlayerEffectGut.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2028,6 +2036,14 @@
                 "id": "f9110e56-95fb-440b-80ea-c1f1d40e4109",
                 "resourcePath": "rooms\\rm_main_menu\\rm_main_menu.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c2fd1e2b-73c0-4221-8b6d-1f37cc2b6f97",
+            "Value": {
+                "id": "3e74c981-f784-40a4-92cc-1c2e4129c1d4",
+                "resourcePath": "objects\\DataCache\\DataCache.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2370,7 +2386,7 @@
             "Key": "e005cf39-2c12-4002-831d-aaf00bc53215",
             "Value": {
                 "id": "194489c3-4555-4d30-802d-29bab73a7a19",
-                "resourcePath": "sprites\\spr_player_aerialSlash2_weapon\\spr_player_aerialSlash2_weapon.yy",
+                "resourcePath": "sprites\\sPlayerWeaponAerialSlash2\\sPlayerWeaponAerialSlash2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2442,7 +2458,7 @@
             "Key": "e53f09f9-e0b6-4cbf-ae68-bbf6394062d2",
             "Value": {
                 "id": "64df0471-5774-4ec8-a079-b7034f054173",
-                "resourcePath": "sprites\\sPlayerAerialFinishEffect\\sPlayerAerialFinishEffect.yy",
+                "resourcePath": "sprites\\sPlayerEffectAerialFinish\\sPlayerEffectAerialFinish.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2554,7 +2570,7 @@
             "Key": "edbebf68-057a-4405-98b0-bac874c5d9a4",
             "Value": {
                 "id": "708c24bc-ae56-4430-a7d5-367cf760e5d1",
-                "resourcePath": "scripts\\scrGameInitializerSpritePairs\\scrGameInitializerSpritePairs.yy",
+                "resourcePath": "scripts\\scrDataCacheSpritePairs\\scrDataCacheSpritePairs.yy",
                 "resourceType": "GMScript"
             }
         },
