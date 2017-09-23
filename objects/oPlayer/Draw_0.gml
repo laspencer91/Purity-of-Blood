@@ -15,7 +15,7 @@ if (ds_map_exists(DataCache.playerSpriteLinks, sprite_index))
 	
 	if (ds_map_exists(DataCache.playerSpriteLinks, weaponSprite))
 	{
-		var effectSprite = ds_map_find_value(DataCache.playerSpriteLinks, sprite_index);
+		var effectSprite = ds_map_find_value(DataCache.playerSpriteLinks, weaponSprite);
 		draw_sprite_ext(effectSprite, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha); 
 	}
 }
