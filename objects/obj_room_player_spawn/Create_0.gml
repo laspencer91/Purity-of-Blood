@@ -1,1 +1,0 @@
-spawnFrom = 0;
