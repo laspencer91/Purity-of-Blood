@@ -1471,6 +1471,14 @@
             }
         },
         {
+            "Key": "8c6e4ab5-2e24-49fa-8d89-6ed1193df86c",
+            "Value": {
+                "id": "55f70686-8941-407e-bacb-b82c7ac056e5",
+                "resourcePath": "objects\\Singleton\\Singleton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8d6c69fd-7570-4468-9ad0-cee502c5222b",
             "Value": {
                 "id": "f80b7a49-4403-4a6f-8cd4-7bec9793368e",

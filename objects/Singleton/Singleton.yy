@@ -1,22 +1,22 @@
 {
-    "id": "689ffe72-4b0c-4a6a-af4d-ff48f71fc650",
+    "id": "8c6e4ab5-2e24-49fa-8d89-6ed1193df86c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "GameInitializer",
+    "name": "Singleton",
     "eventList": [
         {
-            "id": "702133c8-7fa6-4035-a1f9-efaff94a0120",
+            "id": "911fef3e-3321-4388-8730-de9b47002b3e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "689ffe72-4b0c-4a6a-af4d-ff48f71fc650"
+            "m_owner": "8c6e4ab5-2e24-49fa-8d89-6ed1193df86c"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "8c6e4ab5-2e24-49fa-8d89-6ed1193df86c",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
