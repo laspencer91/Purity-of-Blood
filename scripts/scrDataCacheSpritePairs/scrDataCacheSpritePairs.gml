@@ -5,6 +5,7 @@ playerSpriteLinks = ds_map_create();
 ds_map_add(playerSpriteLinks, sPlayerBodyRun           , sPlayerWeaponRun);
 ds_map_add(playerSpriteLinks, sPlayerBodyIdle          , sPlayerWeaponIdle);
 ds_map_add(playerSpriteLinks, sPlayerBodyAirborne      , sPlayerWeaponAirborne);
+ds_map_add(playerSpriteLinks, sPlayerBodyLanding       , sPlayerWeaponLanding);
 
 // Attacking sprites and weapon pairs
 ds_map_add(playerSpriteLinks, sPlayerBodyGut           , sPlayerWeaponGut);

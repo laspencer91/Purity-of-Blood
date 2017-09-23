@@ -5,9 +5,11 @@ switch (vertState)
 {
 	case VertState.grounded:
 		scrPlayerVStateGrounded();
+		prevVState = VertState.grounded;
 		break;
 	case VertState.inAir:
 		scrPlayerVStateInAir();
+		prevVState = VertState.inAir;
 		break;
 }
 
@@ -15,9 +17,11 @@ switch (actionState)
 {
 	case Action.idle:
 		scrPlayerIdleState();
+		prevAState = Action.idle;
 		break;
 	case Action.running:
 		scrPlayerRunningState();
+		prevAState = Action.running;
 		break;
 }
 
@@ -37,5 +41,6 @@ else
 
 y += ySpeed;
 #endregion
+
 
 if (dir != 0) { image_xscale = dir; }

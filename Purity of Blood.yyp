@@ -2258,7 +2258,7 @@
             "Key": "d5617fce-6116-4ec5-b266-ce55015bd813",
             "Value": {
                 "id": "112a1a89-57ce-4b2d-8c08-0752faa1b863",
-                "resourcePath": "sprites\\sPlayerBodylanding\\sPlayerBodylanding.yy",
+                "resourcePath": "sprites\\sPlayerBodyLanding\\sPlayerBodyLanding.yy",
                 "resourceType": "GMSprite"
             }
         },

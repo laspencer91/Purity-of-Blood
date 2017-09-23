@@ -17,13 +17,14 @@ if (place_meeting(x, y + ySpeed, oCollisionParent))
 	ySpeed = 0;
 }
 
-if (ySpeed < 0)
+
+if (ySpeed < 0)		// If traveling upwards
 {
 	scrPlayerSetSprite(sPlayerBodyAirborne, 0, 0, true); // Sub-Image 0, no anim speed
-	if (!InputManager.jumpKeyDown && ySpeed > (-jumpPower / 1.5))
+	if (!InputManager.jumpKeyDown && ySpeed > (-jumpPower / 1.2))
 		ySpeed /= 2;
 }
-else
+else				// If traveling downwards
 {
 	scrPlayerSetSprite(sPlayerBodyAirborne, 0, 1, true); // Sub-Image 1, no anim speed
 }

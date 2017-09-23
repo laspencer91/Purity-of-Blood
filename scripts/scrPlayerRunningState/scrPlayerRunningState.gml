@@ -6,11 +6,10 @@ dir = sign(xSpeed);
 // to apply force horizontally
 if (input == 0)
 {
-	if (xSpeed != 0) 
+	if (abs(xSpeed) > 8) 
 	{
 		xSpeed -= frict * dir;
-		if (xSpeed <= frict && xSpeed >= -frict) xSpeed = 0;
-		show_debug_message(string(min(frict, abs(xSpeed - frict - 0.1)) * dir));
+		if (abs(xSpeed) <= frict) xSpeed = 0;
 	}
 	else
 	{

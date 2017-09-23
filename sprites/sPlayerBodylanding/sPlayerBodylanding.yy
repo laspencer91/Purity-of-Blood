@@ -2,7 +2,7 @@
     "id": "d5617fce-6116-4ec5-b266-ce55015bd813",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sPlayerBodylanding",
+    "name": "sPlayerBodyLanding",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -98,7 +98,7 @@
         }
     ],
     "origin": 9,
-    "playbackSpeed": 1,
+    "playbackSpeed": 12,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,
