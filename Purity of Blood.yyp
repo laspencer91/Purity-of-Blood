@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "20cec736-a994-4644-9149-5d604fe70c41",
+            "Value": {
+                "id": "d32b1dac-089a-4702-a0b1-843c6a832e02",
+                "resourcePath": "scripts\\scrPlayerMeleeAttackState\\scrPlayerMeleeAttackState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "21eeb2c8-4290-447a-8b28-4380c53de6fd",
             "Value": {
                 "id": "01ef241f-8bf4-4a64-85b2-b0ea750503f8",
@@ -291,6 +299,14 @@
             "Value": {
                 "id": "0d9d6496-379d-474c-bd63-e54c598b93d9",
                 "resourcePath": "views\\262e04ba-4780-4ff6-82c7-09a26c06254d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2649864d-16a0-4b00-b397-429640d6aa24",
+            "Value": {
+                "id": "a9d8bdb9-225b-4805-84b4-ab39957b5979",
+                "resourcePath": "views\\2649864d-16a0-4b00-b397-429640d6aa24.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -372,6 +388,14 @@
                 "id": "406b3b31-e652-4a5e-a97d-a8d7b82d9e7b",
                 "resourcePath": "sprites\\spr_flyingSkeleton_attack1\\spr_flyingSkeleton_attack1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2ff465ab-2a43-4c73-8287-b85f8853b9a2",
+            "Value": {
+                "id": "4611e639-5282-4507-aa4b-9bf576930215",
+                "resourcePath": "scripts\\scrErrorWarning\\scrErrorWarning.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -460,6 +484,14 @@
                 "id": "2c5fdade-c50c-4ceb-8ad9-0d0787061ca4",
                 "resourcePath": "objects\\obj_light_dungeon\\obj_light_dungeon.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "370b51b1-4d83-4864-a399-37811f6f0f09",
+            "Value": {
+                "id": "2503e243-d1be-4615-b74e-858af59dd394",
+                "resourcePath": "views\\370b51b1-4d83-4864-a399-37811f6f0f09.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1623,6 +1655,14 @@
             }
         },
         {
+            "Key": "9c41d4c3-1e3b-411a-bb3c-5aa49e443542",
+            "Value": {
+                "id": "c8943650-7dfb-45c5-8209-25cfbe8680ad",
+                "resourcePath": "scripts\\scrErrorFatal\\scrErrorFatal.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9d708219-fffc-477d-b5cf-0bc59e7485e9",
             "Value": {
                 "id": "e2556835-2d78-4d55-87c4-673659838167",
@@ -2255,6 +2295,14 @@
             }
         },
         {
+            "Key": "d4330840-e1b9-4656-935c-143bb64cc932",
+            "Value": {
+                "id": "ac69d103-2763-4cbb-a095-fd6823f8832f",
+                "resourcePath": "scripts\\scrPlayerApplyFriction\\scrPlayerApplyFriction.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d5617fce-6116-4ec5-b266-ce55015bd813",
             "Value": {
                 "id": "112a1a89-57ce-4b2d-8c08-0752faa1b863",
@@ -2710,7 +2758,11 @@
         "df888e50-b075-4938-90de-152a238c6dd8",
         "84a2ced6-d423-4462-a2e6-e5ab2f3ef6e7",
         "d7abf4aa-e338-474d-b0c7-6b7b3376b175",
-        "a5d3cf2f-375d-4795-acdf-4339d8088f61"
+        "20cec736-a994-4644-9149-5d604fe70c41",
+        "a5d3cf2f-375d-4795-acdf-4339d8088f61",
+        "d4330840-e1b9-4656-935c-143bb64cc932",
+        "9c41d4c3-1e3b-411a-bb3c-5aa49e443542",
+        "2ff465ab-2a43-4c73-8287-b85f8853b9a2"
     ],
     "tutorial": ""
 }

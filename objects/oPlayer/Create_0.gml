@@ -18,3 +18,7 @@ prevAState = actionState;
 
 var i = instance_create_layer(x, y, "lay_controllers", oCamera);
 i.follow = self;
+
+// Combat
+meleeComboCount = 0;
+queueNextMelee  = false;

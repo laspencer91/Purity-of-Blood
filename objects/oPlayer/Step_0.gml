@@ -23,6 +23,10 @@ switch (actionState)
 		scrPlayerRunningState();
 		prevAState = Action.running;
 		break;
+	case Action.meleeAttack:
+		scrPlayerMeleeAttackState();
+		prevAState = Action.meleeAttack;
+		break;
 }
 
 #region Apply xSpeed and ySpeed to coordinates

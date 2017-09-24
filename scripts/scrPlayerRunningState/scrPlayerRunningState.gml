@@ -6,15 +6,7 @@ dir = sign(xSpeed);
 // to apply force horizontally
 if (input == 0)
 {
-	if (abs(xSpeed) > 8) 
-	{
-		xSpeed -= frict * dir;
-		if (abs(xSpeed) <= frict) xSpeed = 0;
-	}
-	else
-	{
-		actionState = Action.idle;
-	}
+	actionState = Action.idle;
 }
 else
 {
