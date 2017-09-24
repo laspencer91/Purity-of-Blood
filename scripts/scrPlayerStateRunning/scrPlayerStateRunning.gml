@@ -10,8 +10,9 @@ if (input == 0)
 }
 else
 {
-	if (abs(xSpeed) < maxRunSpeed)
+	if (abs(xSpeed) <= maxRunSpeed)
 		xSpeed += accel * input;
+	if (abs(xSpeed) > maxRunSpeed) { xSpeed = maxRunSpeed * dir; }  // Prevent jitter from xSpeed being increased
 }
 
 // At this point we are on the ground and moving horizontally from user input, use running sprite

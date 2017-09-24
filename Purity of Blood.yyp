@@ -1799,6 +1799,14 @@
             }
         },
         {
+            "Key": "a4eef69a-4b10-4d03-894d-cbf5e368d513",
+            "Value": {
+                "id": "9aef129f-d06c-49b5-9afe-133d973f61d8",
+                "resourcePath": "objects\\oBlockJumpThroughDeactivated\\oBlockJumpThroughDeactivated.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a5484f22-a2ee-4f48-8cc6-f748b9712035",
             "Value": {
                 "id": "78933e3d-156e-4f53-b05b-e1ad23932490",
@@ -1916,6 +1924,14 @@
                 "id": "3b7d70b7-ca00-415f-8f4d-4aef7016e213",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a9ec07de-aa00-44e1-8a67-4b1a6166e9d4",
+            "Value": {
+                "id": "3a13d769-4f1d-41af-b3f6-bf8cc7d6dbcf",
+                "resourcePath": "sprites\\sEmpty\\sEmpty.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2140,6 +2156,14 @@
                 "id": "7810aaeb-6500-430c-87ce-4fb36dfd6115",
                 "resourcePath": "shaders\\shd_render_light\\shd_render_light.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "c726d3b6-c2f5-4f22-a269-760c49ed6274",
+            "Value": {
+                "id": "9185af87-d9ef-4644-9a3e-d69fd0c4d67d",
+                "resourcePath": "objects\\oBlockJumpThroughActivated\\oBlockJumpThroughActivated.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2751,6 +2775,14 @@
             }
         },
         {
+            "Key": "fe6e3b01-7b77-474d-a4fb-5a845c359942",
+            "Value": {
+                "id": "cbdd99f9-e9c0-4abd-b584-3409a486546e",
+                "resourcePath": "scripts\\scrIsJumpThroughCollision\\scrIsJumpThroughCollision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fec5278b-9a53-44eb-9ed2-85c96febb288",
             "Value": {
                 "id": "c191f92c-4bd6-4a2b-838b-1b5e32a92d37",
@@ -2788,6 +2820,7 @@
         "a5d3cf2f-375d-4795-acdf-4339d8088f61",
         "5113da3b-83b3-4020-b505-85a4fc44d43e",
         "d4330840-e1b9-4656-935c-143bb64cc932",
+        "fe6e3b01-7b77-474d-a4fb-5a845c359942",
         "9c41d4c3-1e3b-411a-bb3c-5aa49e443542",
         "2ff465ab-2a43-4c73-8287-b85f8853b9a2"
     ],

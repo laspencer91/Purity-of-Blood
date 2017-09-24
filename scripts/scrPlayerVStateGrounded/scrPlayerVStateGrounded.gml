@@ -11,3 +11,5 @@ if (InputManager.jumpKeyPressed)
 
 if (!place_meeting(x, y + 1, oCollisionParent))
 	vertState = VertState.inAir;
+else if (place_meeting(x, y + 1, oBlockJumpThroughActivated) && InputManager.fallKeyDown)
+	y += 3;
