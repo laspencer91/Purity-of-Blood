@@ -17,3 +17,9 @@ else
 // At this point we are on the ground and moving horizontally from user input, use running sprite
 if (vertState == VertState.grounded)
 	scrPlayerSetSprite(sPlayerBodyRun, (abs(xSpeed) / maxRunSpeed), 0);
+	
+if (InputManager.meleeButtonPressed)												// Transition to attack state
+{
+	actionState = Action.meleeAttack;
+	xSpeed = 0;
+}

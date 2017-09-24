@@ -1,8 +1,8 @@
 {
-    "id": "20cec736-a994-4644-9149-5d604fe70c41",
+    "id": "84a2ced6-d423-4462-a2e6-e5ab2f3ef6e7",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scrPlayerMeleeAttackState",
+    "name": "scrPlayerStateIdle",
     "IsCompatibility": false,
     "IsDnD": false
 }

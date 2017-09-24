@@ -250,7 +250,7 @@
             "Key": "20cec736-a994-4644-9149-5d604fe70c41",
             "Value": {
                 "id": "d32b1dac-089a-4702-a0b1-843c6a832e02",
-                "resourcePath": "scripts\\scrPlayerMeleeAttackState\\scrPlayerMeleeAttackState.yy",
+                "resourcePath": "scripts\\scrPlayerStateMeleeAttackGrounded\\scrPlayerStateMeleeAttackGrounded.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "5113da3b-83b3-4020-b505-85a4fc44d43e",
+            "Value": {
+                "id": "1a43b936-51f3-4ba1-91cf-05ee7a43192b",
+                "resourcePath": "scripts\\scrPlayerEndMeleeCombo\\scrPlayerEndMeleeCombo.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "51f2e017-1828-4c18-b813-10edce6b8e9c",
             "Value": {
                 "id": "554b27c7-4a46-4674-adbd-3f30302c9d63",
@@ -1386,7 +1394,7 @@
             "Key": "84a2ced6-d423-4462-a2e6-e5ab2f3ef6e7",
             "Value": {
                 "id": "3e39ebd5-e2fb-45e0-9786-373a8fda6a14",
-                "resourcePath": "scripts\\scrPlayerIdleState\\scrPlayerIdleState.yy",
+                "resourcePath": "scripts\\scrPlayerStateIdle\\scrPlayerStateIdle.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1628,6 +1636,14 @@
                 "id": "fe877ed9-1e05-465a-9b68-256248f922d5",
                 "resourcePath": "sprites\\spr_bloodHound_dyingProne\\spr_bloodHound_dyingProne.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9a777450-42c4-488c-b0f8-9847e7be30cb",
+            "Value": {
+                "id": "e5e027b0-b794-4aa9-a91e-18d2e518287f",
+                "resourcePath": "scripts\\scrPlayerStateMeleeAttack\\scrPlayerStateMeleeAttack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2271,6 +2287,14 @@
             }
         },
         {
+            "Key": "d027052f-eb05-48cf-8a0a-813eb92fd79e",
+            "Value": {
+                "id": "3e81ce2f-1744-41b1-87bb-100c50130ad1",
+                "resourcePath": "scripts\\scrPlayerStateMeleeAttackAirborne\\scrPlayerStateMeleeAttackAirborne.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d07b5772-13f7-4e80-b8cc-ab368c724a19",
             "Value": {
                 "id": "447082d6-eafb-4ade-8ee1-186e1c32b9c1",
@@ -2330,7 +2354,7 @@
             "Key": "d7abf4aa-e338-474d-b0c7-6b7b3376b175",
             "Value": {
                 "id": "0167bbd0-00cc-450e-904d-09ef1fc8f20a",
-                "resourcePath": "scripts\\scrPlayerRunningState\\scrPlayerRunningState.yy",
+                "resourcePath": "scripts\\scrPlayerStateRunning\\scrPlayerStateRunning.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2759,7 +2783,10 @@
         "84a2ced6-d423-4462-a2e6-e5ab2f3ef6e7",
         "d7abf4aa-e338-474d-b0c7-6b7b3376b175",
         "20cec736-a994-4644-9149-5d604fe70c41",
+        "d027052f-eb05-48cf-8a0a-813eb92fd79e",
+        "9a777450-42c4-488c-b0f8-9847e7be30cb",
         "a5d3cf2f-375d-4795-acdf-4339d8088f61",
+        "5113da3b-83b3-4020-b505-85a4fc44d43e",
         "d4330840-e1b9-4656-935c-143bb64cc932",
         "9c41d4c3-1e3b-411a-bb3c-5aa49e443542",
         "2ff465ab-2a43-4c73-8287-b85f8853b9a2"

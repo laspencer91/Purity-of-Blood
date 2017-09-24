@@ -12,7 +12,7 @@ if (vertState == VertState.grounded)
 {
 	if (prevVState == VertState.inAir)													// If we were previously in the air then..
 	{
-		scrPlayerSetSprite(sPlayerBodyLanding, .5, 0);									// -> we transition sprite to landing
+		scrPlayerSetSprite(sPlayerBodyLanding, .2, 0);									// -> we transition sprite to landing
 	}
 	else
 	{
@@ -28,9 +28,10 @@ if (vertState == VertState.grounded)
 				scrPlayerSetSprite(sPlayerBodyIdle, 1, 0);								// -> -> Then we can set our sprite to idle
 		}
 	}
-	if (InputManager.meleeButtonPressed)												// Transition to attack state
-	{
-		actionState = Action.meleeAttack;
-		xSpeed = 0;
-	}
+}
+
+if (InputManager.meleeButtonPressed)												// Transition to attack state
+{
+	actionState = Action.meleeAttack;
+	xSpeed = 0;
 }

@@ -16,15 +16,15 @@ switch (vertState)
 switch (actionState)
 {
 	case Action.idle:
-		scrPlayerIdleState();
+		scrPlayerStateIdle();
 		prevAState = Action.idle;
 		break;
 	case Action.running:
-		scrPlayerRunningState();
+		scrPlayerStateRunning();
 		prevAState = Action.running;
 		break;
 	case Action.meleeAttack:
-		scrPlayerMeleeAttackState();
+		scrPlayerStateMeleeAttack()
 		prevAState = Action.meleeAttack;
 		break;
 }
