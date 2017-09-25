@@ -11,7 +11,6 @@ grav   = 1.5;
 jumpHeight = 3.5;   // Jump power in how tall in blocks you want
 jumpPower = sqrt(2 * (jumpHeight * 128) * grav) - 1;
 
-
 vertState = VertState.inAir;
 actionState = Action.idle;
 prevVState = vertState;
@@ -26,7 +25,9 @@ i.follow = self;
 
 meleeComboCount = 0;
 queueNextMelee  = false;
+slideAttack     = false;
 
 // Timers
 meleeComboDelay = 15;
 meleeComboEnable = true;
+slideAttackDuration = room_speed * .7;

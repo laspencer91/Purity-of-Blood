@@ -22,5 +22,5 @@ for (var i = 0; i < array_length_1d(controllers); i++)
 		}
 	}
 }
-
+room_goto_next();
 instance_destroy();

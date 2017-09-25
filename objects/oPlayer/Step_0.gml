@@ -27,6 +27,9 @@ switch (actionState)
 		scrPlayerStateMeleeAttack()
 		prevAState = Action.meleeAttack;
 		break;
+	case Action.slideAttack:
+		scrPlayerStateSlidingAttack();
+		break;
 }
 
 #region Apply xSpeed and ySpeed to coordinates

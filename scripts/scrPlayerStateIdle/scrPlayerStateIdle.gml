@@ -27,6 +27,10 @@ if (vertState == VertState.grounded)
 			if (xSpeed == 0)														    // -> until our speed reaches zero
 				scrPlayerSetSprite(sPlayerBodyIdle, 1, 0);								// -> -> Then we can set our sprite to idle
 		}
+		else if (sprite_index == sPlayerBodyBurst && image_index > image_number - 1.1)
+		{
+			scrPlayerSetSprite(sPlayerBodyIdle, 1, 0);
+		}
 	}
 }
 

@@ -19,8 +19,11 @@ else
 if (vertState == VertState.grounded)
 	scrPlayerSetSprite(sPlayerBodyRun, (abs(xSpeed) / maxRunSpeed), 0);
 	
-if (InputManager.meleeButtonPressed)												// Transition to attack state
+if (InputManager.meleeButtonPressed && abs(xSpeed) > maxRunSpeed / 2)	// Transition to attack state
 {
-	actionState = Action.meleeAttack;
+	actionState   = Action.slideAttack;
+	scrPlayerSetSprite(sPlayerBodyBurst, 15, 0);
+	slidingAttack = true;
+	alarm[1]      = slideAttackDuration;
 	xSpeed = 0;
 }
