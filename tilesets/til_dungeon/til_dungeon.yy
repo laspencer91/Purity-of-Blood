@@ -65,9 +65,7 @@
         "SerialiseData": null,
         "SerialiseHeight": 0,
         "SerialiseWidth": 0,
-        "TileSerialiseData": [
-            
-        ]
+        "TileSerialiseData": []
     },
     "out_columns": 19,
     "out_tilehborder": 2,
@@ -426,15 +424,13 @@
         ],
         "SerialiseFrameCount": 1
     },
-    "tile_animation_frames": [
-        
-    ],
+    "tile_animation_frames": [],
     "tile_animation_speed": 15,
     "tile_count": 345,
-    "tileheight": 128,
+    "tileheight": 64,
     "tilehsep": 0,
     "tilevsep": 0,
-    "tilewidth": 128,
+    "tilewidth": 64,
     "tilexoff": 0,
     "tileyoff": 0
 }
