@@ -1,13 +1,13 @@
 {
-    "id": "a5484f22-a2ee-4f48-8cc6-f748b9712035",
+    "id": "f26bc582-53bf-43d5-9c40-946edb96ea94",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oCollisionParent",
+    "name": "oSightBlocker",
     "eventList": [
         
     ],
-    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "f26bc582-53bf-43d5-9c40-946edb96ea94",
+    "maskSpriteId": "5f6281e2-9017-4260-8bbc-5e31f6d66962",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

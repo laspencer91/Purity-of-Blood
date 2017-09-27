@@ -20,3 +20,8 @@ enum VertState
 	inAir
 }
 
+// Enemies
+enum State
+{
+	idle, walking, engaging, attacking
+}

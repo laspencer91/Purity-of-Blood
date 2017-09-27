@@ -2,7 +2,7 @@
     "id": "842cf269-d73d-4c75-a3fb-b571a1812479",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_servant_guard_landing",
+    "name": "sprServantGuardLanding",
     "For3D": false,
     "HTile": false,
     "VTile": false,
