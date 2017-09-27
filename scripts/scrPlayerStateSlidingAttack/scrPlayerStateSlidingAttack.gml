@@ -6,7 +6,7 @@ if (place_meeting(x + xSpeed, y, oCollisionParent))
 }
 else
 {
-	xSpeed = slideAttackSpeed * dir;
+	xSpeed = 38 * dir;
 }
 
 if (image_index > 1.8 && image_index < 2.2)

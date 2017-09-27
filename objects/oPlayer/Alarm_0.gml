@@ -1,4 +1,4 @@
 /// @description Reset Combo Delay
 meleeComboEnable = true;
-if (actionState == Action.idle)
-	image_speed = 1;
+image_speed = 10;
+xSpeed /= 1.2;  // Initial Slow Down

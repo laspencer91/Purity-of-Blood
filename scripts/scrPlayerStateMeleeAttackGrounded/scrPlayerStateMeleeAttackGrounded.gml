@@ -7,7 +7,7 @@ if (prevAState != Action.meleeAttack)
 // Push off then handle the friction for stopping
 if (image_index < 0.4)
 {
-	xSpeed = 5 * dir;
+	xSpeed = 8 * dir;
 }
 scrPlayerApplyFriction();
 
