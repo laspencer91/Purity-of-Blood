@@ -1679,6 +1679,14 @@
             }
         },
         {
+            "Key": "9c7d4fd8-2a5f-48ec-9f03-f3fcb8ef3a81",
+            "Value": {
+                "id": "796837fd-9881-4437-89d7-8f6143362c27",
+                "resourcePath": "scripts\\scrPlayerStateDodge\\scrPlayerStateDodge.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9d708219-fffc-477d-b5cf-0bc59e7485e9",
             "Value": {
                 "id": "e2556835-2d78-4d55-87c4-673659838167",
@@ -2818,6 +2826,7 @@
         "d027052f-eb05-48cf-8a0a-813eb92fd79e",
         "9a777450-42c4-488c-b0f8-9847e7be30cb",
         "bb04b841-8a99-440f-b3da-27e28ac9ef17",
+        "9c7d4fd8-2a5f-48ec-9f03-f3fcb8ef3a81",
         "a5d3cf2f-375d-4795-acdf-4339d8088f61",
         "5113da3b-83b3-4020-b505-85a4fc44d43e",
         "d4330840-e1b9-4656-935c-143bb64cc932",

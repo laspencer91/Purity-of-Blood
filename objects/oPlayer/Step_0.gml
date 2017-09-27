@@ -30,6 +30,9 @@ switch (actionState)
 	case Action.slideAttack:
 		scrPlayerStateSlidingAttack();
 		break;
+	case Action.dodge:
+		scrPlayerStateDodge();
+		break;
 }
 
 #region Apply xSpeed and ySpeed to coordinates

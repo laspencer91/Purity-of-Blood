@@ -19,7 +19,13 @@ else
 if (vertState == VertState.grounded)
 	scrPlayerSetSprite(sPlayerBodyRun, (abs(xSpeed) / maxRunSpeed), 0);
 	
-if (InputManager.meleeButtonPressed && abs(xSpeed) > maxRunSpeed / 2)	// Transition to attack state
+if (InputManager.rollInput && vertState == VertState.grounded)
+{
+	actionState = Action.dodge;
+	scrPlayerSetSprite(sPlayerBodyDodging, 10, 0);
+	xSpeed = dir * rollSpeed + (xSpeed / 2);
+}	
+else if (InputManager.meleeButtonPressed && (abs(xSpeed) > maxRunSpeed / 2 || InputManager.maxHorizontalAxis))	// Transition to attack state
 {
 	actionState   = Action.slideAttack;
 	scrPlayerSetSprite(sPlayerBodyBurst, 15, 0);

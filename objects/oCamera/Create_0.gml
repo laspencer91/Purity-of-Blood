@@ -1,5 +1,5 @@
 /// @description Init Camera
-cam = camera_create_view(0, 0, 2880, 1620, 0, -1, -1, -1, 0, 0);
+cam = camera_create_view(0, 0, 360, 202, 0, -1, -1, -1, 0, 0);
 
 room_set_view_enabled(room, 1);
 room_set_viewport(room, 0, 1, 0, 0, 1920, 1080);

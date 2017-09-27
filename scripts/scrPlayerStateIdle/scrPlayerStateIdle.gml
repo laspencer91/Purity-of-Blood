@@ -34,7 +34,13 @@ if (vertState == VertState.grounded)
 	}
 }
 
-if (InputManager.meleeButtonPressed)												// Transition to attack state
+if (InputManager.rollInput && vertState == VertState.grounded)
+{
+	actionState = Action.dodge;
+	scrPlayerSetSprite(sPlayerBodyDodging, 10, 0);
+	xSpeed = dir * rollSpeed;
+}
+else if (InputManager.meleeButtonPressed)												// Transition to attack state
 {
 	actionState = Action.meleeAttack;
 	xSpeed = 0;

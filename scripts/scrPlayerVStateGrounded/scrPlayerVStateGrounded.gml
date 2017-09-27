@@ -1,6 +1,6 @@
 ySpeed = 0;
 
-if (InputManager.jumpKeyPressed)
+if (InputManager.jumpKeyPressed && !InputManager.rollInput)
 {
 	if (actionState != Action.meleeAttack)
 	{

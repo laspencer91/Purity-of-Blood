@@ -1,15 +1,16 @@
 /// @description Initialize Player
-maxRunSpeed  = 15;
-maxFallSpeed = 50;
+maxRunSpeed  = 1.6;
+maxFallSpeed = 6.5;
+rollSpeed    = 4;
 
 dir = 1;
 xSpeed = 0;
 ySpeed = 0;
-frict  = .7;
+frict  = .09;
 accel  = maxRunSpeed / 6;
-grav   = 1.5;
-jumpHeight = 3.5;   // Jump power in how tall in blocks you want
-jumpPower = sqrt(2 * (jumpHeight * 128) * grav) - 1;
+grav   = .3;
+jumpHeight = 4.5;   // Jump power in how tall in blocks you want
+jumpPower = sqrt(2 * (jumpHeight * 16) * grav) - 1;
 
 vertState = VertState.inAir;
 actionState = Action.idle;
@@ -30,4 +31,4 @@ slideAttack     = false;
 // Timers
 meleeComboDelay = 15;
 meleeComboEnable = true;
-slideAttackDuration = room_speed * .7;
+slideAttackDuration = room_speed * .5;

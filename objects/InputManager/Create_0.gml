@@ -9,6 +9,7 @@ fallKeyDown = false;
 
 jumpKeyAssign  = ord("Z");
 meleeKeyAssign = ord("X");
+rollKeyAssign = ord("C");
 downKeyAssign  = vk_down;
 
 moveInputH = 0;
@@ -25,6 +26,9 @@ bInputHeld = 0;
 xInputHeld = 0;
 yInputHeld = 0;
 xInputPressed = 0;
+
+maxHorizontalAxis = false;
+rollInput = false;
 
 rbInput = 0;
 lbInput = 0;

@@ -1,3 +1,7 @@
+if (image_speed != 15)
+{
+	image_speed = 15;    // This prevents a bug from happening where the image speed doesnt get set
+}
 
 if (place_meeting(x + xSpeed, y, oCollisionParent))
 {
@@ -6,7 +10,7 @@ if (place_meeting(x + xSpeed, y, oCollisionParent))
 }
 else
 {
-	xSpeed = 38 * dir;
+	xSpeed = 4.5 * dir;
 }
 
 if (image_index > 1.8 && image_index < 2.2)
