@@ -1,4 +1,4 @@
-attackAnimationSpeed = 14;
+attackAnimationSpeed = 18;
 if (prevAState != Action.meleeAttack)
 {
 	meleeComboCount = 0;
@@ -22,7 +22,7 @@ switch (meleeComboCount)
 {
 	case (0):
 	{
-		scrPlayerSetSprite(sPlayerBodyAerialSlash, attackAnimationSpeed, 0);
+		scrSetSprite(sPlayerBodyAerialSlash, attackAnimationSpeed, 0);
 		
 		if (image_index >= 3)
 		{
@@ -43,7 +43,7 @@ switch (meleeComboCount)
 	}
 	case (1):
 	{
-		scrPlayerSetSprite(sPlayerBodyAerialSlash2, attackAnimationSpeed, 0);
+		scrSetSprite(sPlayerBodyAerialSlash2, attackAnimationSpeed, 0);
 		
 		if (image_index >= 3)
 		{
@@ -64,7 +64,7 @@ switch (meleeComboCount)
 	}
 	case (2):
 	{
-		scrPlayerSetSprite(sPlayerBodyAerialSlash, attackAnimationSpeed, 0);
+		scrSetSprite(sPlayerBodyAerialSlash, attackAnimationSpeed, 0);
 		
 		if (image_index >= 3)
 		{
@@ -85,7 +85,7 @@ switch (meleeComboCount)
 	}
 	case (3):
 	{
-		scrPlayerSetSprite(sPlayerBodyAerialFinish, attackAnimationSpeed, 0);
+		scrSetSprite(sPlayerBodyAerialFinish, attackAnimationSpeed, 0);
 		
 		if (image_index >= 3)
 		{
@@ -100,4 +100,13 @@ switch (meleeComboCount)
 		}
 		break;
 	}
+}
+
+if (image_index > 2 && image_index < 2.5)
+{
+	if (instance_exists(oPlayerAttackSliceHB)) 
+		with (oPlayerAttackSliceHB) { event_user(0); }
+		
+	hb = instance_create_depth(x, y, 0, oPlayerAttackSliceHB);
+	hb.image_xscale = image_xscale;
 }

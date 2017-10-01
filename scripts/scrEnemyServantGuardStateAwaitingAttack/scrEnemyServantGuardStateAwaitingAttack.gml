@@ -1,0 +1,1 @@
+show_debug_message("AWAITING ATTACK " + string(State.awaitingAttack));

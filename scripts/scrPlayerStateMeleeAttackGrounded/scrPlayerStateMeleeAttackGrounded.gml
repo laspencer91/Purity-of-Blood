@@ -1,4 +1,4 @@
-attackAnimationSpeed = 14;
+attackAnimationSpeed = 18;
 if (prevAState != Action.meleeAttack)
 {
 	meleeComboCount = 0;
@@ -21,7 +21,7 @@ switch (meleeComboCount)
 {
 	case (0):					// First sword swing
 	{
-		scrPlayerSetSprite(sPlayerBodySlice, attackAnimationSpeed, 0);
+		scrSetSprite(sPlayerBodySlice, attackAnimationSpeed, 0);
 		
 		if (image_index >= 3)
 		{
@@ -42,7 +42,7 @@ switch (meleeComboCount)
 	}
 	case (1):					// Second sword swing
 	{
-		scrPlayerSetSprite(sPlayerBodySlice2, attackAnimationSpeed, 0);
+		scrSetSprite(sPlayerBodySlice2, attackAnimationSpeed, 0);
 		
 		if (image_index >= 3)
 		{
@@ -63,7 +63,7 @@ switch (meleeComboCount)
 	}
 	case (2):					// Third sword swing
 	{
-		scrPlayerSetSprite(sPlayerBodySlice, attackAnimationSpeed, 0);
+		scrSetSprite(sPlayerBodySlice, attackAnimationSpeed, 0);
 		
 		if (image_index >= 3)
 		{
@@ -84,7 +84,7 @@ switch (meleeComboCount)
 	}
 	case (3):					// Fourth sword swing
 	{
-		scrPlayerSetSprite(sPlayerBodySmash, attackAnimationSpeed, 0);
+		scrSetSprite(sPlayerBodySmash, attackAnimationSpeed, 0);
 		
 		if (image_index >= 3)
 		{
@@ -99,4 +99,13 @@ switch (meleeComboCount)
 		}
 		break;
 	}
+}
+
+if (image_index > 2 && image_index < 2.5)
+{
+	if (instance_exists(oPlayerAttackSliceHB)) 
+		with (oPlayerAttackSliceHB) { event_user(0); }
+		
+	hb = instance_create_depth(x, y, 0, oPlayerAttackSliceHB);
+	hb.image_xscale = image_xscale;
 }

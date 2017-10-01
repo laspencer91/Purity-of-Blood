@@ -22,12 +22,12 @@ if (actionState != Action.meleeAttack && actionState != Action.slideAttack)
 {
 	if (ySpeed < 0)									         // If traveling upwards
 	{
-		scrPlayerSetSprite(sPlayerBodyAirborne, 0, 0, true); // Sub-Image 0, no anim speed
+		scrSetSprite(sPlayerBodyAirborne, 0, 0, true); // Sub-Image 0, no anim speed
 		if (!InputManager.jumpKeyDown && ySpeed > (-jumpPower / 1.2))
 			ySpeed /= 2;
 	}
 	else											         // If traveling downwards
 	{
-		scrPlayerSetSprite(sPlayerBodyAirborne, 0, 1, true); // Sub-Image 1, no anim speed
+		scrSetSprite(sPlayerBodyAirborne, 0, 1, true); // Sub-Image 1, no anim speed
 	}
 }

@@ -12,24 +12,24 @@ if (vertState == VertState.grounded)
 {
 	if (prevVState == VertState.inAir)													// If we were previously in the air then..
 	{
-		scrPlayerSetSprite(sPlayerBodyLanding, .2, 0);									// -> we transition sprite to landing
+		scrSetSprite(sPlayerBodyLanding, .2, 0);									// -> we transition sprite to landing
 	}
 	else
 	{
 		if ((sprite_index == sPlayerBodyLanding && image_index > image_number - 1.1) || // If our sprite is landing and the animation is complete
 			(prevAState == Action.meleeAttack))											// or if our previous state was attacking 
 		{
-			scrPlayerSetSprite(sPlayerBodyIdle, 1, 0);									// -> then we transition to the idle sprite
+			scrSetSprite(sPlayerBodyIdle, 1, 0);									// -> then we transition to the idle sprite
 		}
 		else if (sprite_index == sPlayerBodyRun)										// If our sprite is currently running then we..
 		{
 			image_speed = (abs(xSpeed) / maxRunSpeed);									// -> keep our image speed to match the x move speed
 			if (xSpeed == 0)														    // -> until our speed reaches zero
-				scrPlayerSetSprite(sPlayerBodyIdle, 1, 0);								// -> -> Then we can set our sprite to idle
+				scrSetSprite(sPlayerBodyIdle, 1, 0);								// -> -> Then we can set our sprite to idle
 		}
 		else if (sprite_index == sPlayerBodyBurst && image_index > image_number - 1.1)
 		{
-			scrPlayerSetSprite(sPlayerBodyIdle, 1, 0);
+			scrSetSprite(sPlayerBodyIdle, 1, 0);
 		}
 	}
 }
@@ -37,7 +37,7 @@ if (vertState == VertState.grounded)
 if (InputManager.rollInput && vertState == VertState.grounded)
 {
 	actionState = Action.dodge;
-	scrPlayerSetSprite(sPlayerBodyDodging, 10, 0);
+	scrSetSprite(sPlayerBodyDodging, 10, 0);
 	xSpeed = dir * rollSpeed;
 }
 else if (InputManager.meleeButtonPressed)												// Transition to attack state

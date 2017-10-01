@@ -1,5 +1,7 @@
 event_inherited();  // Singleton
 
+randomize();
+
 if (!layer_exists("Controllers"))
 	layer_create(0, "Controllers");
 
@@ -7,6 +9,7 @@ if (!layer_exists("Controllers"))
 controllers[0] = InputManager;
 controllers[1] = RoomManager;
 controllers[2] = DataCache;
+controllers[3] = LightingManager;
 
 // Initiailize all of the controllers. Let us know if they are not setup
 // correctly to be persistant through the rooms.

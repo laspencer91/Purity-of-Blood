@@ -17,18 +17,18 @@ else
 
 // At this point we are on the ground and moving horizontally from user input, use running sprite
 if (vertState == VertState.grounded)
-	scrPlayerSetSprite(sPlayerBodyRun, (abs(xSpeed) / maxRunSpeed), 0);
+	scrSetSprite(sPlayerBodyRun, (abs(xSpeed) / maxRunSpeed), 0);
 	
 if (InputManager.rollInput && vertState == VertState.grounded)
 {
 	actionState = Action.dodge;
-	scrPlayerSetSprite(sPlayerBodyDodging, 10, 0);
+	scrSetSprite(sPlayerBodyDodging, 10, 0);
 	xSpeed = dir * rollSpeed + (xSpeed / 2);
 }	
 else if (InputManager.meleeButtonPressed && (abs(xSpeed) > maxRunSpeed / 2 || InputManager.maxHorizontalAxis))	// Transition to attack state
 {
 	actionState   = Action.slideAttack;
-	scrPlayerSetSprite(sPlayerBodyBurst, 15, 0);
+	scrSetSprite(sPlayerBodyBurst, 15, 0);
 	slidingAttack = true;
 	alarm[1]      = slideAttackDuration;
 	xSpeed = 0;

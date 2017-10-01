@@ -1,5 +1,7 @@
 if (image_speed != 15)
 {
+	if (!instance_exists(oPlayerAttackBurstHB))
+		instance_create_depth(x, y, 0, oPlayerAttackBurstHB);
 	image_speed = 15;    // This prevents a bug from happening where the image speed doesnt get set
 }
 

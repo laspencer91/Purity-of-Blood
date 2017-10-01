@@ -4,7 +4,7 @@ image_speed = 10;
 if (image_index > image_number - 1.1 || vertState != VertState.grounded)
 {
 	actionState = Action.idle;
-	scrPlayerSetSprite(sPlayerBodyIdle, 1, 0);
+	scrSetSprite(sPlayerBodyIdle, 1, 0);
 }
 
 if (InputManager.meleeButtonPressed)

@@ -23,5 +23,5 @@ enum VertState
 // Enemies
 enum State
 {
-	idle, walking, engaging, attacking
+	idle, walking, engaging, attacking, alerted, awaitingAttack 
 }

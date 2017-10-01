@@ -19,7 +19,8 @@
         "7a03d682-ce58-4438-a565-cbe53c1ba809",
         "c5539887-2c9f-4a67-bf83-445d2d288561",
         "8ea94f8a-6354-4575-9908-8bf643731b49",
-        "a7744ee4-bdd5-4b5f-8a49-37fb23f1b6cb"
+        "a7744ee4-bdd5-4b5f-8a49-37fb23f1b6cb",
+        "2c1868f3-5e02-481a-9088-eda8f0b2925f"
     ],
     "filterType": "GMSprite",
     "folderName": "servant guard",

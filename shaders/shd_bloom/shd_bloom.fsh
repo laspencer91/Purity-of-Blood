@@ -1,6 +1,3 @@
-//
-// Simple passthrough fragment shader
-//
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
 uniform float blurSize;
@@ -37,4 +34,3 @@ void main()
    //increase blur with intensity!
    gl_FragColor = sum * intensity + texture2D(gm_BaseTexture, v_vTexcoord);
 }
-

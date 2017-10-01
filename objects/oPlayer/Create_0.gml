@@ -3,7 +3,7 @@ maxRunSpeed  = 1.6;
 maxFallSpeed = 6.5;
 rollSpeed    = 4;
 
-dir = 1;
+dir    = 1;
 xSpeed = 0;
 ySpeed = 0;
 frict  = .09;
@@ -32,3 +32,5 @@ slideAttack     = false;
 meleeComboDelay = 15;
 meleeComboEnable = true;
 slideAttackDuration = room_speed * .5;
+
+hp = 100; // TODO Move assignment to player stat object
